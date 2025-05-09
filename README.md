@@ -63,13 +63,12 @@ Interaktive Kartenbeispiele:
 
 - [PLZ 53925](https://radverkehr.github.io/erreichbarkeiten/showcase_kall/viz/plz_53925_ebr_dash_isosimp002_25-03-21.htm)
 
-## Nächste Schritte
+## Mögliche nächste Schritte
 
-- Analyseverfahren und Zielgruppen weiterentwickeln
-- Custom Routing verbessern (encoded values, road attributes)
+- Analyseverfahren und Zielgruppen (Routingprofile) weiterentwickeln
+- Custom Routing verbessern (encoded values, road attributes erweitern)
 - Scoring-Verfahren objektivieren und verfeinern
 - Performance: parallele Routing-Anfragen
-- Integration von empirischen Nutzungsdaten (Stadtradeln, Strava etc.)
 
 ## Lizenz
 
