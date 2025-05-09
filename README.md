@@ -50,12 +50,32 @@ Das Projekt nutzt u. a. die Open-Source-Routingengine **GraphHopper**, um Isoc
 
 - Datenverarbeitung mit Python (`pandas`, `geopandas`)
 - Erstellung von Isochronen über GH Isochrone-API
-- Rasterbasierte Erreichbarkeitsauswertung
-- Scoring je nach Zielgruppe/Attributen
+- Scoring je nach Attributen und Fahrzeiten
 
 #### Prozessablauf
 
 <img src="images/processing_overview.png" alt="Processing Overview" width="600">
+
+##### Verarbeitung erfolgt in unterschiedlichen Modulen
+
+###### Attraktionen und Haltepunkte
+
+- **Attraktionen aus OSM**: Extraktion und Verarbeitung von Points of Interest (POIs) aus OpenStreetMap-Daten.
+- **PT Stops aus GTFS**: Aggregation und Analyse von Haltepunkten des öffentlichen Nahverkehrs basierend auf GTFS-Daten.
+- **Statisches Scoring**: Bewertung von Attraktionen und Haltepunkten.
+
+###### Routing und Isochronen
+
+- **GH Server aufsetzen**: Einrichtung eines GraphHopper-Servers für Routinganfragen inkl custom routing Profilen.
+- **Isochronenberechnung und -vereinfachung**: Erstellung von Isochronen mit der GraphHopper-Isochrone-API und anschließende Vereinfachung der Geometrien.
+
+###### Scoring je Kachel
+
+- **Zeitabhängiges Scoring**: Scoring auf basis der Fahrzeit als Faktor.
+- **Grenznutzen**: Max. Anzahl von Attraktionen je Kathegoie werden gescored
+- **Scoring**
+
+
 
 ### Visualisierung
 
