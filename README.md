@@ -101,6 +101,16 @@ Hier kann der aktuelle Raster-Output der Verarbeitungspipeline heruntergeladen w
 
 [Download germany_coeff_rasters_25-05-20.parquet](https://f003.backblazeb2.com/file/erreichbarad/germany_coeff_rasters_25-05-20.parquet)
 
+####  Spaltenübersicht
+
+- `GITTER_ID_100m`: ID der 100m-Rasterzelle
+- `coeff_bike`, `coeff_cargo_bike`, `coeff_my_bike_cycleways`: Erreichbarkeits-Scores je Modus
+- `diff_cargo_bike_abs`, `diff_my_bike_cycleways_abs`: absolute Differenz zum Basismodus (`bike`)
+- `diff_cargo_bike_rel`, `diff_my_bike_cycleways_rel`: relative Differenz (verhältnismäßig)
+- `plz`, `ags`, `name_23`, `RegioStaR7`: Verwaltungszuordnung
+- Verschiedene Informationen aus dem Zensus 2022, z. B. Einwohnerzahlen und Bevölkerungsanteile nach Altersgruppen. Weitere Details und genaue Definitionen finden Sie im [Zensus 2022 Atlas](https://atlas.zensus2022.de/).
+
+
 ## Mögliche nächste Schritte
 
 - Analyseverfahren und Zielgruppen (Routingprofile) weiterentwickeln
