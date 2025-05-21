@@ -77,11 +77,23 @@ Das Projekt nutzt u. a. die Open-Source-Routingengine **GraphHopper**, um Isoc
 
 
 
-### Visualisierung
+## Visualisierung
 
-Interaktive Kartenbeispiele:
+### Interaktive Kartenbeispiele:
 
 - [PLZ 53925](https://radverkehr.github.io/erreichbarkeiten/showcase_kall/viz/plz_53925_ebr_dash_isosimp002_25-03-21.htm)
+
+### Erreichbarkeiten mit Standardrad
+
+<img src="images/coeff_bike.png" alt="Erreichbarkeiten mit `bike`" width="600">
+
+### Erreichbarkeiten mit E-/Lastenrad
+
+<img src="images/coeff_cargobike.png" alt="Erreichbarkeiten mit `cargobike`" width="600">
+
+### Erreichbarkeiten mit "My-Bike" (sichere Wege)
+
+<img src="images/coeff_mybike.png" alt="Erreichbarkeiten mit `mybike` (sichere Wege)" width="600">
 
 ## Mögliche nächste Schritte
 
