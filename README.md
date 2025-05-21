@@ -95,6 +95,12 @@ Das Projekt nutzt u. a. die Open-Source-Routingengine **GraphHopper**, um Isoc
 
 <img src="images/coeff_mybike.png" alt="Erreichbarkeiten mit `mybike` (sichere Wege)" width="600">
 
+## Download
+
+Hier kann der aktuelle Raster-Output der Verarbeitungspipeline heruntergeladen werden:
+
+[Download germany_coeff_rasters_25-05-20.parquet](https://f003.backblazeb2.com/file/erreichbarad/germany_coeff_rasters_25-05-20.parquet)
+
 ## Mögliche nächste Schritte
 
 - Analyseverfahren und Zielgruppen (Routingprofile) weiterentwickeln
